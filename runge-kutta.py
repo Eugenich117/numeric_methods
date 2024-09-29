@@ -18,7 +18,9 @@ cToRad = m.pi / 180
 tetta *= cToRad
 
 после вычислений
-TETTA.append(tetta * cToDeg)"""
+TETTA.append(tetta * cToDeg) """
+
+
 def runge_kutta_4(equations, initial, dt, dx):
     '''equations - это список названий функций с уравнениями для системы
     initial это переменные с начальными условиями
