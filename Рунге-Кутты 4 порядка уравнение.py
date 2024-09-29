@@ -37,8 +37,10 @@ x_values = np.arange(x0, 4.2, dt)
 y_values = np.zeros_like(x_values)
 y_values[0] = y0
 
+
 for i in range(1, len(x_values)):
     y_values[i] = runge_kutta_4(x_values[i-1], y_values[i-1], dt)
+
 
 # Вывод результатов
 for x, y in zip(x_values, y_values):
