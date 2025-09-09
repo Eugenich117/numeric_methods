@@ -72,5 +72,4 @@ while R >= Rb:
     L = values[1]
     tetta = values[2]
     R = values[3]
-    t += dt
-    """
+    t += dt"""
